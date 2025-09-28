@@ -1,36 +1,201 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chishty Portfolio Website
 
-## Getting Started
+A modern, professional portfolio website built with Next.js, TypeScript, and shadcn/ui, showcasing expertise in backend development, AI/ML, automation, cloud computing, system administration, and computer networks.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Tech Stack**: Built with Next.js 15, TypeScript, and Tailwind CSS
+- **Beautiful UI**: Uses shadcn/ui components for a polished, professional look
+- **Responsive Design**: Fully responsive across all device sizes
+- **Smooth Animations**: Framer Motion animations for engaging user experience
+- **SEO Optimized**: Proper meta tags and structured data
+- **Performance Focused**: Optimized for fast loading and smooth interactions
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Modern component library
+- **Framer Motion** - Animation library
+- **Lucide React** - Beautiful icons
+
+### Development Tools
+
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Git** - Version control
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles and CSS variables
+│   ├── layout.tsx           # Root layout component
+│   └── page.tsx             # Main page component
+├── components/
+│   ├── ui/                  # shadcn/ui components
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── dialog.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── progress.tsx
+│   │   └── tabs.tsx
+│   ├── Header.tsx           # Navigation header
+│   ├── Hero.tsx             # Hero section
+│   ├── About.tsx            # About section
+│   ├── Skills.tsx           # Skills showcase
+│   ├── Projects.tsx         # Projects portfolio
+│   ├── Contact.tsx          # Contact form
+│   └── Footer.tsx           # Footer component
+└── lib/
+    └── utils.ts             # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Sections
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Hero Section
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Professional introduction
+- Animated skill tags
+- Call-to-action buttons
+- Social media links
 
-## Learn More
+### 2. About Section
 
-To learn more about Next.js, take a look at the following resources:
+- Personal story and expertise
+- Statistics and achievements
+- Detailed skill categories
+- Professional background
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Skills Section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Comprehensive skill showcase
+- Progress bars for proficiency levels
+- Categorized by technology domains
+- Certifications and achievements
 
-## Deploy on Vercel
+### 4. Projects Section
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Featured project showcase
+- Filterable by category
+- Detailed project information
+- Live demo and source code links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 5. Contact Section
+
+- Interactive contact form
+- Contact information
+- Social media links
+- Availability status
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd chishty-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 🎯 Customization
+
+### Personal Information
+
+Update the following files with your personal information:
+
+- **Header.tsx**: Update social media links
+- **Hero.tsx**: Update name, title, and description
+- **About.tsx**: Update personal story and statistics
+- **Skills.tsx**: Update skills and certifications
+- **Projects.tsx**: Update project information
+- **Contact.tsx**: Update contact details
+
+### Styling
+
+- **Colors**: Modify CSS variables in `globals.css`
+- **Fonts**: Update font imports in `layout.tsx`
+- **Components**: Customize shadcn/ui components as needed
+
+### Content
+
+- **Projects**: Add your actual projects with real links
+- **Skills**: Update with your actual skill levels
+- **Contact**: Update with your real contact information
+- **Social Links**: Update with your actual social media profiles
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+
+## ⚡ Performance Features
+
+- **Image Optimization**: Next.js automatic image optimization
+- **Code Splitting**: Automatic code splitting for faster loading
+- **Lazy Loading**: Components load as needed
+- **SEO**: Proper meta tags and structured data
+- **Accessibility**: WCAG compliant components
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact
+
+For questions or support, please contact:
+
+- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn Profile]
+- GitHub: [Your GitHub Profile]
+
+---
+
+Built with ❤️ using Next.js and shadcn/ui
