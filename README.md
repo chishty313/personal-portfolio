@@ -28,6 +28,27 @@ A modern, professional portfolio website built with Next.js, TypeScript, and sha
 - **PostCSS** - CSS processing
 - **Git** - Version control
 
+## 🌐 Deployment
+
+### Quick Deploy to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/chishty-portfolio)
+
+1. **Fork this repository**
+2. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Sign in with GitHub
+   - Click "New Project"
+   - Import your forked repository
+3. **Deploy**: Vercel will automatically deploy your site
+4. **Custom Domain**: Add your domain in Vercel project settings
+
+### Other Deployment Options
+- **Netlify**: Connect GitHub repo, build command: `npm run build`
+- **GitHub Pages**: Use GitHub Actions workflow
+- **Railway**: Connect GitHub repo for automatic deployment
+
+📖 **Detailed deployment guide**: See [DEPLOYMENT.md](./DEPLOYMENT.md)
+
 ## 📁 Project Structure
 
 ```
