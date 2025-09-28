@@ -13,7 +13,6 @@ import {
   Network,
   Server,
   Shield,
-  GitBranch,
   Cpu,
 } from "lucide-react";
 
@@ -36,7 +35,7 @@ const Skills = () => {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
@@ -181,7 +180,7 @@ const Skills = () => {
 
           {/* Skills Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-16">
-            {skillCategories.map((category, categoryIndex) => (
+            {skillCategories.map((category) => (
               <motion.div
                 key={category.title}
                 variants={itemVariants}

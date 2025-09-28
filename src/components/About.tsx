@@ -34,7 +34,7 @@ const About = () => {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
@@ -152,7 +152,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm a passionate full-stack developer with expertise in backend
+              II'mapos;m a passionate full-stack developer with expertise in backend
               development, AI/ML, automation, and cloud computing. I love
               building innovative solutions that solve real-world problems and
               improve efficiency.
@@ -238,7 +238,7 @@ const About = () => {
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Technology has the power to transform businesses and improve
-                  lives. I'm passionate about leveraging my skills in backend
+                  lives. II'mapos;m passionate about leveraging my skills in backend
                   development, AI/ML, and automation to create solutions that
                   make a real difference. Whether it's building scalable APIs,
                   implementing machine learning models, or automating repetitive

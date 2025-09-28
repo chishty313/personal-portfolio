@@ -39,7 +39,7 @@ const Projects = () => {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
@@ -359,7 +359,7 @@ const Projects = () => {
                   Interested in Working Together?
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  I'm always excited to work on new projects and challenges.
+                  II'mapos;m always excited to work on new projects and challenges.
                   Let's discuss how we can bring your ideas to life.
                 </p>
                 <Button

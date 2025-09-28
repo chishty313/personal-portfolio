@@ -24,7 +24,7 @@ const Hero = () => {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
@@ -54,7 +54,7 @@ const Hero = () => {
         {/* Greeting */}
         <motion.div variants={itemVariants} className="mb-6">
           <span className="text-lg text-muted-foreground font-medium">
-            Hello, I'm
+            Hello, II'mapos;m
           </span>
         </motion.div>
 
@@ -67,7 +67,7 @@ const Hero = () => {
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
-              transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
+              transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" as const }}
               className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl"
             >
               <Image

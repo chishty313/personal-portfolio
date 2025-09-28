@@ -45,7 +45,7 @@ const Contact = () => {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
@@ -138,7 +138,7 @@ const Contact = () => {
               Get In Touch
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Ready to start your next project? I'm always excited to work on
+              Ready to start your next project? II'mapos;m always excited to work on
               new challenges and help bring innovative ideas to life. Let's
               discuss how we can work together.
             </p>
@@ -227,7 +227,7 @@ const Contact = () => {
                           onChange={handleInputChange}
                           required
                           className="w-full px-4 py-3 border border-border rounded-lg bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-colors duration-200"
-                          placeholder="What's this about?"
+                          placeholder="WhatWhat'sapos;s this about?"
                         />
                       </div>
 
@@ -348,7 +348,7 @@ const Contact = () => {
                     </h4>
                   </div>
                   <p className="text-muted-foreground text-sm mb-3">
-                    I'm currently available for new projects and collaborations.
+                    II'mapos;m currently available for new projects and collaborations.
                   </p>
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
